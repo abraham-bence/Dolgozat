@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+h1 {
+
+    text-align: center;
+    
+}
+div{
+    background-color: lightblue;
+    width: 960px;
+    text-align: justify;
+    padding: 30px;
+    margin: 0 auto;
+}
+hr {
+    border-top: darkblue 3px solid;
+    border-bottom: darkblue 3px solid ;
+    padding: 1px;
+    border-left: none;
+    border-right: none;
+    transform: translate(0, -15px);
+}
+h2 {
+    text-transform: uppercase;
+    color: darkblue;
+    border-top: solid darkblue;
+    border-bottom: dotted darkblue;
+    margin-right: 40%;
+}
+li {
+    list-style-image: url(img/kukac.png);
+}
+img:not(#neumann):not(#alan):not(#kep2) {
+    width: 200px;
+    float: right;
+    border: 5px solid darkblue;
+    margin: 20px;
+}
+#neumann {
+    width: 200px;
+    float: left;
+    border: 5px solid darkblue;
+    margin: 20px;
+}
+#kep1 {
+    float: right;
+    width: 200px;
+    border: 5px solid darkblue;
+    margin: 20px;
+    transform: translate(0, -75px);
+}
+
+#alan {
+    width: 200px;
+    float: left;
+    border: 5px solid darkblue;
+    margin: 20px;
+}
+#kep2 {
+    float: right;
+    width: 200px;
+    border: 5px solid darkblue;
+    margin: 20px;
+    transform: translate(0,-100px);
+}
